@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "415B19B1528B98B1F82CAC34811F588A2D23DF24",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "841F739333088A2DFCAB9B221C5D319235F6D903" : 0,
+    "415B19B1528B98B1F82CAC34811F588A2D23DF24" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "38285DAF-26EC-4153-9F32-849FF146CBB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "841F739333088A2DFCAB9B221C5D319235F6D903" : "",
+    "415B19B1528B98B1F82CAC34811F588A2D23DF24" : "swift-serial\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "swift-serial",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift-serial.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rsgc-leder-b\/swift-serial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "415B19B1528B98B1F82CAC34811F588A2D23DF24"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rsgc-leder-b\/Github.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "841F739333088A2DFCAB9B221C5D319235F6D903"
+    }
+  ]
+}

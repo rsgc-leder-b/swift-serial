@@ -10,7 +10,32 @@
 		16C603C556BCB10C91B1010F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 525A116E3BEFF2BCCC642205 /* libPods.a */; };
 		812BE73D1BF68528000DB47E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BE73C1BF68528000DB47E /* main.swift */; };
 		819F72041BF89BA700801D11 /* support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819F72031BF89BA700801D11 /* support.swift */; };
+		C616231D1C1F665D0098CFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C616231C1C1F665D0098CFFA /* AppDelegate.swift */; };
+		C616231F1C1F665D0098CFFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C616231E1C1F665D0098CFFA /* ViewController.swift */; };
+		C61623211C1F665D0098CFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61623201C1F665D0098CFFA /* Assets.xcassets */; };
+		C61623241C1F665D0098CFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61623221C1F665D0098CFFA /* Main.storyboard */; };
+		C616232F1C1F665D0098CFFA /* Pong_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C616232E1C1F665D0098CFFA /* Pong_AnimationTests.swift */; };
+		C616233A1C1F665D0098CFFA /* Pong_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61623391C1F665D0098CFFA /* Pong_AnimationUITests.swift */; };
+		C61623461C1F66D10098CFFA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61623451C1F66D10098CFFA /* Helper.swift */; };
+		C61623481C1F67CE0098CFFA /* Sketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61623471C1F67CE0098CFFA /* Sketch.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C616232B1C1F665D0098CFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812BE7311BF68528000DB47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61623191C1F665D0098CFFA;
+			remoteInfo = "Pong-Animation";
+		};
+		C61623361C1F665D0098CFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 812BE7311BF68528000DB47E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61623191C1F665D0098CFFA;
+			remoteInfo = "Pong-Animation";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		812BE7371BF68528000DB47E /* CopyFiles */ = {
@@ -32,6 +57,20 @@
 		819F72021BF894BF00801D11 /* SwiftSerial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSerial-Bridging-Header.h"; sourceTree = "<group>"; };
 		819F72031BF89BA700801D11 /* support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = support.swift; sourceTree = "<group>"; };
 		93233B979DEFFFC73E90B331 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C616231A1C1F665D0098CFFA /* Pong-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616231C1C1F665D0098CFFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C616231E1C1F665D0098CFFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C61623201C1F665D0098CFFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61623231C1F665D0098CFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61623251C1F665D0098CFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C616232A1C1F665D0098CFFA /* Pong-AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong-AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C616232E1C1F665D0098CFFA /* Pong_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong_AnimationTests.swift; sourceTree = "<group>"; };
+		C61623301C1F665D0098CFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61623351C1F665D0098CFFA /* Pong-AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong-AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61623391C1F665D0098CFFA /* Pong_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong_AnimationUITests.swift; sourceTree = "<group>"; };
+		C616233B1C1F665D0098CFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61623451C1F66D10098CFFA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		C61623471C1F67CE0098CFFA /* Sketch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sketch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C61623171C1F665D0098CFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61623271C1F665D0098CFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61623321C1F665D0098CFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -50,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				812BE73B1BF68528000DB47E /* swift-serial */,
+				C616231B1C1F665D0098CFFA /* Pong-Animation */,
+				C616232D1C1F665D0098CFFA /* Pong-AnimationTests */,
+				C61623381C1F665D0098CFFA /* Pong-AnimationUITests */,
 				812BE73A1BF68528000DB47E /* Products */,
 				C2CA4AF19DB356232BA59283 /* Pods */,
 				BFB29C95A611C56075495FB0 /* Frameworks */,
@@ -60,6 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				812BE7391BF68528000DB47E /* swift-serial */,
+				C616231A1C1F665D0098CFFA /* Pong-Animation.app */,
+				C616232A1C1F665D0098CFFA /* Pong-AnimationTests.xctest */,
+				C61623351C1F665D0098CFFA /* Pong-AnimationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +157,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C616231B1C1F665D0098CFFA /* Pong-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C616231C1C1F665D0098CFFA /* AppDelegate.swift */,
+				C616231E1C1F665D0098CFFA /* ViewController.swift */,
+				C61623201C1F665D0098CFFA /* Assets.xcassets */,
+				C61623221C1F665D0098CFFA /* Main.storyboard */,
+				C61623251C1F665D0098CFFA /* Info.plist */,
+				C61623451C1F66D10098CFFA /* Helper.swift */,
+				C61623471C1F67CE0098CFFA /* Sketch.swift */,
+			);
+			path = "Pong-Animation";
+			sourceTree = "<group>";
+		};
+		C616232D1C1F665D0098CFFA /* Pong-AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C616232E1C1F665D0098CFFA /* Pong_AnimationTests.swift */,
+				C61623301C1F665D0098CFFA /* Info.plist */,
+			);
+			path = "Pong-AnimationTests";
+			sourceTree = "<group>";
+		};
+		C61623381C1F665D0098CFFA /* Pong-AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61623391C1F665D0098CFFA /* Pong_AnimationUITests.swift */,
+				C616233B1C1F665D0098CFFA /* Info.plist */,
+			);
+			path = "Pong-AnimationUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,6 +211,59 @@
 			productReference = 812BE7391BF68528000DB47E /* swift-serial */;
 			productType = "com.apple.product-type.tool";
 		};
+		C61623191C1F665D0098CFFA /* Pong-Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61623421C1F665D0098CFFA /* Build configuration list for PBXNativeTarget "Pong-Animation" */;
+			buildPhases = (
+				C61623161C1F665D0098CFFA /* Sources */,
+				C61623171C1F665D0098CFFA /* Frameworks */,
+				C61623181C1F665D0098CFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pong-Animation";
+			productName = "Pong-Animation";
+			productReference = C616231A1C1F665D0098CFFA /* Pong-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61623291C1F665D0098CFFA /* Pong-AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61623431C1F665D0098CFFA /* Build configuration list for PBXNativeTarget "Pong-AnimationTests" */;
+			buildPhases = (
+				C61623261C1F665D0098CFFA /* Sources */,
+				C61623271C1F665D0098CFFA /* Frameworks */,
+				C61623281C1F665D0098CFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C616232C1C1F665D0098CFFA /* PBXTargetDependency */,
+			);
+			name = "Pong-AnimationTests";
+			productName = "Pong-AnimationTests";
+			productReference = C616232A1C1F665D0098CFFA /* Pong-AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61623341C1F665D0098CFFA /* Pong-AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61623441C1F665D0098CFFA /* Build configuration list for PBXNativeTarget "Pong-AnimationUITests" */;
+			buildPhases = (
+				C61623311C1F665D0098CFFA /* Sources */,
+				C61623321C1F665D0098CFFA /* Frameworks */,
+				C61623331C1F665D0098CFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61623371C1F665D0098CFFA /* PBXTargetDependency */,
+			);
+			name = "Pong-AnimationUITests";
+			productName = "Pong-AnimationUITests";
+			productReference = C61623351C1F665D0098CFFA /* Pong-AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,6 +277,17 @@
 					812BE7381BF68528000DB47E = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
+					C61623191C1F665D0098CFFA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C61623291C1F665D0098CFFA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C61623191C1F665D0098CFFA;
+					};
+					C61623341C1F665D0098CFFA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C61623191C1F665D0098CFFA;
+					};
 				};
 			};
 			buildConfigurationList = 812BE7341BF68528000DB47E /* Build configuration list for PBXProject "swift-serial" */;
@@ -134,6 +296,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 812BE7301BF68528000DB47E;
 			productRefGroup = 812BE73A1BF68528000DB47E /* Products */;
@@ -141,9 +304,38 @@
 			projectRoot = "";
 			targets = (
 				812BE7381BF68528000DB47E /* swift-serial */,
+				C61623191C1F665D0098CFFA /* Pong-Animation */,
+				C61623291C1F665D0098CFFA /* Pong-AnimationTests */,
+				C61623341C1F665D0098CFFA /* Pong-AnimationUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61623181C1F665D0098CFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61623211C1F665D0098CFFA /* Assets.xcassets in Resources */,
+				C61623241C1F665D0098CFFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61623281C1F665D0098CFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61623331C1F665D0098CFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		7340FE2968995EAE7E2A3788 /* Check Pods Manifest.lock */ = {
@@ -188,7 +380,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C61623161C1F665D0098CFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61623461C1F66D10098CFFA /* Helper.swift in Sources */,
+				C61623481C1F67CE0098CFFA /* Sketch.swift in Sources */,
+				C616231F1C1F665D0098CFFA /* ViewController.swift in Sources */,
+				C616231D1C1F665D0098CFFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61623261C1F665D0098CFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C616232F1C1F665D0098CFFA /* Pong_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61623311C1F665D0098CFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C616233A1C1F665D0098CFFA /* Pong_AnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C616232C1C1F665D0098CFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61623191C1F665D0098CFFA /* Pong-Animation */;
+			targetProxy = C616232B1C1F665D0098CFFA /* PBXContainerItemProxy */;
+		};
+		C61623371C1F665D0098CFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61623191C1F665D0098CFFA /* Pong-Animation */;
+			targetProxy = C61623361C1F665D0098CFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C61623221C1F665D0098CFFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61623231C1F665D0098CFFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		812BE73E1BF68528000DB47E /* Debug */ = {
@@ -293,6 +536,88 @@
 			};
 			name = Release;
 		};
+		C616233C1C1F665D0098CFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leder-Games.Pong-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C616233D1C1F665D0098CFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leder-Games.Pong-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C616233E1C1F665D0098CFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong-AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leder-Games.Pong-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong-Animation.app/Contents/MacOS/Pong-Animation";
+			};
+			name = Debug;
+		};
+		C616233F1C1F665D0098CFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong-AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leder-Games.Pong-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong-Animation.app/Contents/MacOS/Pong-Animation";
+			};
+			name = Release;
+		};
+		C61623401C1F665D0098CFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong-AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leder-Games.Pong-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pong-Animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C61623411C1F665D0098CFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Pong-AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leder-Games.Pong-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pong-Animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -313,6 +638,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C61623421C1F665D0098CFFA /* Build configuration list for PBXNativeTarget "Pong-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C616233C1C1F665D0098CFFA /* Debug */,
+				C616233D1C1F665D0098CFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C61623431C1F665D0098CFFA /* Build configuration list for PBXNativeTarget "Pong-AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C616233E1C1F665D0098CFFA /* Debug */,
+				C616233F1C1F665D0098CFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C61623441C1F665D0098CFFA /* Build configuration list for PBXNativeTarget "Pong-AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61623401C1F665D0098CFFA /* Debug */,
+				C61623411C1F665D0098CFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
